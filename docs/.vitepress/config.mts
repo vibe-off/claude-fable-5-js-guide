@@ -2,6 +2,9 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/claude-fable-5-js-guide/',
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/claude-fable-5-js-guide/favicon.svg' }]
+  ],
   lastUpdated: true,
   themeConfig: {
     search: {
